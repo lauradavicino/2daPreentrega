@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2? family= Signika+Negative:wght@400;600;700 & display=swap');
+
+
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.grid{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 
+        
+        grid-template-rows: 20% auto 10%
+        gap 2%
+}
+
+
+
+body{
+        background-color: rgb (222, 163, 230)
+}
+
+.header{
+        height: 100vh;
+        background-image: url(../assets/img/56873.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        padding: 2rem;
+}
+ 
+ .navbar-ligt.navbar-nav.linkVerde {
+        color:rgb(10, 10, 10) !important
+
+
+ }
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+.listaItem{
+        list-style: none;
+        display: inline-block;
+        padding-left: 25px;
+        padding-top: 0;
+}
+
+
+
+
+
+
+body{
+         font-family: 'work sans' sans-serif;
+         font-weight: 900;
+         
+
+
+       
+}
+       
+
+
+
+
+.contenedortituloheader{
+        width: 50%;
+        margin: 0 auto;
+        height: 30vh;
+        margin-top: 100px;
+        text-align: center;
+}
+
+
+
+.centrar{
+        text-align: center;
+}
+
+.fuentegrande{
+        font-size: 70px
+
+}
+.footer{
+        background-color: rgb(170, 184, 247);
+        text-align: center;
+}
+
+
+
+
+
+/*h1 selector de etiquetas- el menos poderosos de todos
+
+        /*propiedad:valor;*/
+h1{
+ color: rgb(6, 6, 7);
+ font-size: 50px;
+}
+
+
+
+
+
+         
+
+
+#idcolorfondo{
+        background-color: rgb(228, 165, 236);
+}
+
+
+/*hay selectores de clases que vamos a usaer en nuestro proyecto
+-los selectores de clase se llaman con un punto .nombreclase*/
+
+.colorfondo{
+        background-color: rgb(214, 137, 208);
+}
+
+
+a{
+        text-decoration: none;
+
+}
+.icon{
+        font-size: 50px;
+        color: black;
+        padding-left: 20px;
+        
+
+}
+
+/* hay selectores de id- es el mas poderosos lo vamos a usar*/
+
+body{
+              
+                height: 100vh
+                
+}               
+
+.wsp{
+        display: inline-block;
+        
+        width: 70px;
+        height: 70px;
+        border-radius:50%
+        text-align center
+        
+       
+} 
+
+.facebook{
+
+        display: inline-block;
+        
+        width: 70px;
+        height: 70px;
+        border-radius:50%
+        text-align center
+        
+
+}
+
+.instagram{
+        display: inline-block;
+       
+        width: 70spx;
+        height: 70px;
+        border-radius:50%
+        text-align center
+        
+}
+
+
+.contenedor{
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-items:center
+        align-content  space-between
+        gap 20px
+        justify-content: space-between
+        margin:0 auto
+
+ 
+        
+        
+          
+        
+
+}
+
+.imagen{
+                
+                width: 10%;
+                border: 5px solid rgb(189, 189, 240);
+                text-align: center;
+                padding: 20px;
+                margin: 30px;
+        
+
+
+}
+
+.imagen img{
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        
+}
+
+       
+  .mapa{
+        margin-right:80px;
+        text-align:right;
+        margin-bottom: 80px;
+  }      
+
+  .galeria{
+        width: 100vh;
+  }
+  .carousel-item{
+        height: 50vh;
+        
+  }
+   .carousel-item img{
+        width: 200vh;
+        object-fit: cover;
+   }
